@@ -76,6 +76,7 @@
             calcButton.TabIndex = 4;
             calcButton.Text = "計算する";
             calcButton.UseVisualStyleBackColor = true;
+            calcButton.Click += CalcButtonClicked;
             // 
             // Form1
             // 
@@ -89,6 +90,7 @@
             Controls.Add(priceBox);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
